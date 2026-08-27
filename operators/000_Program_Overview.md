@@ -2,6 +2,9 @@
 
 This folder contains **basic JavaScript programs** covering arithmetic operations, user input, variable swapping, and `Math.floor()`. It also demonstrates **pre/post increment and decrement operators**, including how values change during execution. Finally, it includes **Compound Interest and Final Amount calculations** using standard mathematical formulas.
 
+
+
+
 ### 📌 Programs
 
 | S.No. | Program Question | File Name |
