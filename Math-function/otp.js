@@ -1,0 +1,1 @@
+console.log("OTP for your Login is := " + Math.trunc(Math.random()*9000))
