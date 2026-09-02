@@ -78,3 +78,11 @@ XOR compares two binary bits:
 | 0 | 1 | 1     |
 | 1 | 0 | 1     |
 | 1 | 1 | 0     |
+
+
+### Useful Validation Function in JavaScript
+
+1. `Number.isInteger(reading)` — Used to validate whether the given input is an integer (not a decimal number).
+
+   - `reading` is simply a variable containing the value you want to validate.
+   - You can use any variable name inside `Number.isInteger()`.
