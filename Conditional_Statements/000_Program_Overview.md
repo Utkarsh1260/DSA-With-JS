@@ -1,8 +1,6 @@
 ### 📌 Folder Overview
 
-This folder contains JavaScript programs covering basic mathematical calculations and number operations.
-It includes OTP generation, Heron’s formula, circle circumference, rounding, roots, powers, and absolute values.
-It also demonstrates finding maximum/minimum values, generating random numbers, and formatting decimal values.
+
 
 
 ### 📌 Programs
