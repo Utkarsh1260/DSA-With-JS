@@ -3,11 +3,16 @@ let units = Number(prompt("Enter Meter Reading :- "));
 let bill_amount=0;
 
 
+if(units<=0 || !Number.isInteger(units) ) 
+    { console.log("Invalid Meter Reading !!!!") ;
+        console.log("Only Write Integer Reading, No decimal Numbers")
+        return ; }
+
 if( units>400){
     bill_amount+=(units-400)*13;
     units=400;
 }
-
+   
 if( units>200 && units <=400){
     bill_amount+=(units-200)*8;
     units=200;
