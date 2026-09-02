@@ -1,5 +1,7 @@
 # JavaScript Input & Running DSA
 
+
+  
 ## 1. Install Node.js
 
 Install **Node.js** to run JavaScript files directly in the VS Code terminal instead of using the Chrome console.
@@ -66,3 +68,13 @@ node operators/sum_of_two.js
 npm install prompt-sync   → Install input package
 node file_name.js         → Run JS file
 ```
+
+
+understand XOR
+XOR compares two binary bits:
+| A | B | A ^ B |
+| - | - | ----- |
+| 0 | 0 | 0     |
+| 0 | 1 | 1     |
+| 1 | 0 | 1     |
+| 1 | 1 | 0     |
