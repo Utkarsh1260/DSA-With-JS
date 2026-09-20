@@ -19,4 +19,5 @@ This folder contains **basic JavaScript programs** covering different types of *
 | 11 | Write a JavaScript program to print numbers from 1 to 10 and stop the loop when the number reaches 5 using `break` | `break_loop.js` |
 | 12 | Write a JavaScript program to print numbers from 1 to 5 while skipping the number 3 using `continue` | `continue_loop.js` |
 | 13 | Write a JavaScript program to print the sum of first n natural numbers using an special math formula that is `Gauss's Summation Trick or Gauss's Formula` | `gauss_formula_for_sum.js` |
-| 13 | Write a JavaScript program to print the factors of a number but keep loop efficient | `efficient_factor.js` |
+| 14 | Write a JavaScript program to print the factors of a number but keep loop efficient | `efficient_factor.js` |
+| 15 | Write a JavaScript program to check a number is prime or not in different ways | `different_ways_check_prime.js` |
