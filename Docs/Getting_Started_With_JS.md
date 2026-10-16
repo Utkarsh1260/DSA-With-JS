@@ -1,6 +1,20 @@
+## 📚 Table of Contents
+
+| S.No. | Topic | Description |
+|---:|---|---|
+| 1 | Node.js Installation | Install Node.js and verify Node.js/npm versions |
+| 2 | Installing `prompt-sync` | Set up the package for terminal input |
+| 3 | Taking Input in JavaScript | Read one or two numbers using `prompt-sync` |
+| 4 | Running JavaScript Files | Execute JavaScript files using Node.js |
+| 5 | XOR Operation | Understand XOR using its truth table |
+| 6 | Input Validation | Validate integer input using `Number.isInteger()` |
+
+---
+
+
+
+
 # JavaScript Input & Running DSA
-
-
   
 ## 1. Install Node.js
 

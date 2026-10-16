@@ -1,7 +1,3 @@
-### 📌 Folder Overview
-
-This folder contains **basic JavaScript programs** focused on the **`for` loop**. It demonstrates how to repeat a block of code using a `for` loop, including its initialization, condition, and increment/decrement expressions.
-
 ### 📌 Programs
 
 | S.No. | Program Question | File Name |
@@ -21,3 +17,5 @@ This folder contains **basic JavaScript programs** focused on the **`for` loop**
 | 13 | Write a JavaScript program to print the sum of first n natural numbers using an special math formula that is `Gauss's Summation Trick or Gauss's Formula` | `gauss_formula_for_sum.js` |
 | 14 | Write a JavaScript program to print the factors of a number but keep loop efficient | `efficient_factor.js` |
 | 15 | Write a JavaScript program to check a number is prime or not in different ways | `different_ways_check_prime.js` |
+| 16 | Write a JavaScript program for Harshad Number Check | `Harshad_number.js` |
+| 17    | Write a JavaScript program to check whether a given number is an abundant number by calculating the sum of its proper divisors | `abundant_number_check.js` |
