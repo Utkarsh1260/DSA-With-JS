@@ -1,19 +1,25 @@
-## 📅 Year and Month Days
+## 📚 Table of Contents
+
+| S.No. | Topic | Description | Page No. |
+|---:|---|---|---:|
+| 1 | Year Days and Leap Year | Year types, days in each month, and February | 1 |
+| 2 | Bitwise Operations | AND, OR, XOR, NOT, left shift, and right shift | 1 |
+| 3 | Prime Number | Identifying prime numbers and finding prime factors | 1 |
 
 ---
 
-### 🗓️ 1. Types of Years
+<span style="display:block;background:#cbd5e1;color:#334155;width:100%;box-sizing:border-box;padding:1px 8px;font-size:11px;font-weight:bold;border-radius:2px;">PAGE 1</span>
+
+# 📅 1. Types of Years
 
 | Year Type | Total Days | Days in February |
 |---|---:|---:|
 | **Leap Year** | 366 days | 29 days |
 | **Normal Year** | 365 days | 28 days |
 
----
+## 🗓️  Days in Each Month
 
-### 📌 2. Days in Each Month
-
-#### 🟢 Months with 31 Days
+### 🟢 Months with 31 Days
 - January (1)
 - March (3)
 - May (5)
@@ -22,43 +28,33 @@
 - October (10)
 - December (12)
 
-#### 🔵 Months with 30 Days
+### 🔵 Months with 30 Days
 - April (4)
 - June (6)
 - September (9)
 - November (11)
 
-#### 🟡 February (2)
+### 🟡 February (2)
 - **Leap Year:** 29 days
 - **Normal Year:** 28 days
 
+### 💡 Quick Revision
+- 7 months have 31 days.
+- 4 months have 30 days.
+- February has 28 or 29 days.
+- Leap year: 366 days.
+- Normal year: 365 days.
+
 ---
 
-### 💡 Quick Revision
+# Logical Operations
 
-- **7 months** have 31 days.
-- **4 months** have 30 days.
-- **February** has 28 or 29 days.
-- **Leap Year:** 366 days.
-- **Normal Year:** 365 days.
-
-
-----
-
-  # Bitwise Operators in JavaScript
+## ⚙️ 1`. Bitwise AND (`&`)
 
 Bitwise operators perform operations on the binary bits (`0` and `1`) of numbers.
 
-## 1. Bitwise AND (`&`)
-
-<div>
-  <span style="display:inline-flex;align-items:center;justify-content:center;width:54px;height:54px;border-radius:50%;background:#d1fae5;color:#065f46;font-size:28px;font-weight:bold;vertical-align:middle;">&amp;</span>
-  <span style="font-size:24px;font-weight:bold;margin-left:12px;vertical-align:middle;">AND Operator</span>
-</div>
-
 - **Popular name:** Bitwise AND
 - **Other name:** AND operation
-
 
 ### Truth Table
 
@@ -83,29 +79,21 @@ console.log(5 & 3); // 1
 ```
 
 ### Explanation
-
-- Returns `1` only when **both corresponding bits are `1`**.
+- Returns `1` only when both corresponding bits are `1`.
 - Returns `0` if either bit is `0`.
-- **Effect:** Keeps only the bits that are set (`1`) in both numbers.
+- Keeps only the bits set in both numbers.
 
 ### Uses
-
-- Checking whether a particular bit is set.
+- Checking whether a bit is set.
 - Extracting selected bits using a bitmask.
 - Working with flags and low-level data.
 
 ---
 
-## 2. Bitwise OR (`|`)
-
-<div>
-  <span style="display:inline-flex;align-items:center;justify-content:center;width:54px;height:54px;border-radius:50%;background:#fef3c7;color:#92400e;font-size:28px;font-weight:bold;vertical-align:middle;">|</span>
-  <span style="font-size:24px;font-weight:bold;margin-left:12px;vertical-align:middle;">OR Operator</span>
-</div>
+## 🔗 2. Bitwise OR (`|`)
 
 - **Popular name:** Bitwise OR
 - **Other name:** Inclusive OR
-
 
 ### Truth Table
 
@@ -130,29 +118,21 @@ console.log(5 | 3); // 7
 ```
 
 ### Explanation
-
-- Returns `1` when **at least one corresponding bit is `1`**.
+- Returns `1` when at least one corresponding bit is `1`.
 - Returns `0` only when both bits are `0`.
-- **Effect:** Combines the set bits from both numbers.
+- Combines the set bits from both numbers.
 
 ### Uses
-
 - Setting specific bits.
 - Combining multiple flags.
 - Enabling options represented by individual bits.
 
 ---
 
-## 3. Bitwise XOR (`^`)
-
-<div>
-  <span style="display:inline-flex;align-items:center;justify-content:center;width:54px;height:54px;border-radius:50%;background:#ede9fe;color:#5b21b6;font-size:28px;font-weight:bold;vertical-align:middle;">^</span>
-  <span style="font-size:24px;font-weight:bold;margin-left:12px;vertical-align:middle;">XOR Operator</span>
-</div>
+## 🔀 3. Bitwise XOR (`^`)
 
 - **Popular name:** Bitwise XOR
 - **Full name:** Exclusive OR
-
 
 ### Truth Table
 
@@ -177,25 +157,20 @@ console.log(5 ^ 3); // 6
 ```
 
 ### Explanation
-
-- Returns `1` when **the corresponding bits are different**.
+- Returns `1` when corresponding bits are different.
 - Returns `0` when both bits are the same.
-- **Effect:** Identifies differences between corresponding bits.
+- Identifies differences between corresponding bits.
 
 ### Uses
-
 - Finding differences between bit patterns.
 - Toggling specific bits.
-- Solving problems involving pairs of numbers and XOR properties.
+- Solving problems involving XOR properties.
 
 ---
 
-## 4. Bitwise NOT (`~`)
 
-<div>
-  <span style="display:inline-flex;align-items:center;justify-content:center;width:54px;height:54px;border-radius:50%;background:#fce7f3;color:#9d174d;font-size:28px;font-weight:bold;vertical-align:middle;">~</span>
-  <span style="font-size:24px;font-weight:bold;margin-left:12px;vertical-align:middle;">NOT Operator</span>
-</div>
+
+## 🪞 4. Bitwise NOT (`~`)
 
 - **Popular name:** Bitwise NOT
 - **Other names:** Complement operator, bitwise complement
@@ -223,33 +198,24 @@ For a simplified 4-bit illustration:
 ```
 
 ### Explanation
-
 - Converts each `0` bit to `1`.
 - Converts each `1` bit to `0`.
-- **Effect:** Inverts the bits of the number.
+- Inverts the bits of a number.
 
-**Important in JavaScript:** Bitwise NOT operates using a 32-bit signed integer representation. Therefore, `~5` returns `-6`, not `10`.
-
-For JavaScript bitwise operations:
+**Important in JavaScript:** Bitwise NOT uses a 32-bit signed integer representation.
 
 ```js
 ~n === -(n + 1)
 ```
 
 ### Uses
-
 - Inverting bits.
 - Working with bitmasks.
-- Low-level integer and bit manipulation.
+- Low-level integer manipulation.
 
 ---
 
-## 5. Left Shift (`<<`)
-
-<div>
-  <span style="display:inline-flex;align-items:center;justify-content:center;width:54px;height:54px;border-radius:50%;background:#cffafe;color:#155e75;font-size:23px;font-weight:bold;vertical-align:middle;">&lt;&lt;</span>
-  <span style="font-size:24px;font-weight:bold;margin-left:12px;vertical-align:middle;">Left Shift Operator</span>
-</div>
+## ⬅️ 5. Left Shift (`<<`)
 
 - **Popular name:** Left shift
 - **Other name:** Bitwise left shift
@@ -262,35 +228,28 @@ console.log(5 << 1); // 10
 ```
 
 ```text
-Before:  0101  (5)
-Shift:  1010   (10)
+Before: 0101 (5)
+After:  1010 (10)
 ```
 
 ### Explanation
-
-- Shifts the bits to the left by the specified number of positions.
+- Shifts bits to the left by the specified number of positions.
 - Vacated positions on the right are filled with `0`.
-- **Effect:** For non-negative integers within the usual range, shifting left by `n` positions corresponds to multiplying by \(2^n\), subject to JavaScript's 32-bit integer behavior.
+- For suitable non-negative integers, shifting left by `n` positions corresponds to multiplying by \(2^n\), subject to JavaScript's 32-bit integer behavior.
 
 ```js
-5 << 1; // 10  (5 * 2)
-5 << 2; // 20  (5 * 4)
+5 << 1; // 10
+5 << 2; // 20
 ```
 
 ### Uses
-
-- Bitmask creation.
+- Creating bitmasks.
 - Working with binary representations.
-- Efficient calculations involving powers of two when integer limits are respected.
+- Calculations involving powers of two.
 
 ---
 
-## 6. Right Shift (`>>`)
-
-<div>
-  <span style="display:inline-flex;align-items:center;justify-content:center;width:54px;height:54px;border-radius:50%;background:#ffedd5;color:#9a3412;font-size:23px;font-weight:bold;vertical-align:middle;">&gt;&gt;</span>
-  <span style="font-size:24px;font-weight:bold;margin-left:12px;vertical-align:middle;">Right Shift Operator</span>
-</div>
+## ➡️ 6. Right Shift (`>>`)
 
 - **Popular name:** Right shift
 - **Other name:** Sign-propagating right shift
@@ -303,32 +262,30 @@ console.log(5 >> 1); // 2
 ```
 
 ```text
-Before: 0101  (5)
-Shift:  0010  (2)
+Before: 0101 (5)
+After:  0010 (2)
 ```
 
 ### Explanation
-
-- Shifts the bits to the right by the specified number of positions.
+- Shifts bits to the right by the specified number of positions.
 - The leftmost positions are filled with the original sign bit.
-- **Effect:** For non-negative integers, shifting right by `n` positions corresponds to taking the integer part of division by \(2^n\).
+- For non-negative integers, shifting right by `n` positions corresponds to taking the integer part of division by \(2^n\).
 
 ```js
-5 >> 1; // 2  (5 / 2, integer result)
-8 >> 2; // 2  (8 / 4)
+5 >> 1; // 2
+8 >> 2; // 2
 ```
 
 ### Uses
-
-- Extracting higher-order or lower-order bits.
+- Extracting bits.
 - Dividing non-negative integers by powers of two.
 - Processing binary data and bitmasks.
 
 ---
 
-## Quick Recap
+## 📊 Bitwise Operators — Quick Recap
 
-| Operator | Name | Quick rule | Example | Result |
+| Operator | Name | Quick Rule | Example | Result |
 |:---:|---|---|---|---:|
 | `&` | AND | Both bits must be `1` | `5 & 3` | `1` |
 | `\|` | OR | At least one bit is `1` | `5 \| 3` | `7` |
@@ -337,11 +294,46 @@ Shift:  0010  (2)
 | `<<` | Left shift | Shift bits left | `5 << 1` | `10` |
 | `>>` | Right shift | Shift bits right | `5 >> 1` | `2` |
 
-## Why Learn Bitwise Operators?
+### Remember
+- AND keeps common set bits.
+- OR combines set bits.
+- XOR identifies differing bits.
+- NOT inverts bits.
+- Shift operators move bits left or right.
 
-- **Performance:** Useful for low-level integer operations and compact calculations.
+---
+
+## 🚀 10. Why Learn Bitwise Operators?
+
+- **Performance:** Useful for low-level integer operations.
 - **Memory efficiency:** Multiple Boolean flags can be stored in one integer using bitmasks.
 - **Cybersecurity:** Useful in cryptographic implementations, binary protocols, and data processing.
-- **Problem solving:** Common in competitive programming, bit manipulation, and algorithmic optimization.
+- **Problem solving:** Common in competitive programming and algorithm optimization.
 
-**Remember:** AND keeps common set bits, OR combines set bits, XOR identifies differing bits, NOT inverts bits, and shift operators move bits left or right.
+---
+
+
+## 🔢 3. Prime Number
+
+A **prime number** is a natural number greater than `1` that has exactly two factors: `1` and itself.
+
+### Examples
+- `5` → Factors: `1, 5` → Prime number
+- `7` → Factors: `1, 7` → Prime number
+
+---
+
+## 🧩  Prime Factors
+
+**Prime factors** are the factors of a number that are themselves prime numbers.
+
+### Example 1: Number = 12
+- Factors: `1, 2, 3, 4, 6, 12`
+- Prime factors: `2, 3`
+
+### Example 2: Number = 30
+- Factors: `1, 2, 3, 5, 6, 10, 15, 30`
+- Prime factors: `2, 3, 5`
+
+---
+
