@@ -1,10 +1,10 @@
 ## 📚 Table of Contents
 
-| S.No. | Topic | Description | Page No. |
-|---:|---|---|---:|
-| 1 | Year Days and Leap Year | Year types, days in each month, and February | 1 |
-| 2 | Bitwise Operations | AND, OR, XOR, NOT, left shift, and right shift | 1 |
-| 3 | Prime Number | Identifying prime numbers and finding prime factors | 1 |
+| S.No. | Topic | Description |
+|---:|---|-
+| 1 | Year Days and Leap Year | Year types, days in each month, and February |
+| 2 | Bitwise Operations | AND, OR, XOR, NOT, left shift, and right shift |
+| 3 | Prime Number | Identifying prime numbers and finding prime factors |
 
 ---
 
